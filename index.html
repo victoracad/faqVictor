@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="imgBackground">
+
+  </div>
+
+  <section>
+    <div class="starDiv">
+      <img src="assets/images/icon-star.svg" alt="">
+      <h1>FAQs</h1>
+    </div>
+
+    <div class="divSpan" id="div1">
+      <span onclick="openDiv(0)"><strong> What is Frontend Mentor, and how will it help me?</strong></span>
+      <img class="imgMinusPlus" onclick="openDiv(0)" style="cursor: pointer;" src="assets/images/icon-plus.svg" alt="">
+    </div>
+    <p id="paragrafo1" class="paragrafo">
+      Frontend Mentor offers realistic coding challenges to help developers improve their 
+      frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+      all levels and ideal for portfolio building.
+    </p>
+    <hr>
+
+    <div class="divSpan" id="div2">
+      <span onclick="openDiv(1)"><strong>Is Frontend Mentor free?</strong></span>
+      <img class="imgMinusPlus" onclick="openDiv(1)" style="cursor: pointer;" src="assets/images/icon-plus.svg" alt="">
+    </div>
+    <p id="paragrafo2" class="paragrafo">
+      Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+      option providing access to a range of projects suitable for all skill levels.
+    </p>
+    <hr>
+
+    <div class="divSpan" id="div3">
+      <span  onclick="openDiv(2)"><strong>Can I use Frontend Mentor projects in my portfolio?</strong></span>
+      <img class="imgMinusPlus" onclick="openDiv(2)" style="cursor: pointer;" src="assets/images/icon-plus.svg" alt="">
+    </div>
+    <p id="paragrafo3" class="paragrafo">
+      Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+      way to showcase your skills to potential employers!
+    </p>
+    <hr>
+
+    <div class="divSpan" id="div4">
+      <span onclick="openDiv(3)"><strong>How can I get help if I'm stuck on a Frontend Mentor challenge?</strong></span>
+      <img class="imgMinusPlus" onclick="openDiv(3)" style="cursor: pointer;" src="assets/images/icon-plus.svg" alt="">
+    </div>
+    <p id="paragrafo4" class="paragrafo">
+      The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+      channel where you can ask questions and seek support from other community members.
+    </p>
+
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/victoracad">Victor Carvalho</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
